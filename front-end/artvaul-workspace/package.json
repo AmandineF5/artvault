@@ -3,9 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "prestart": "npm run build:libs",
     "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "build:libs:art": "ng build art-features",
+    "build:libs": "npm run build:libs:art",
+    "build:app": "ng build front-end",
+    "watch:libs:art": "ng build art-features --watch --configuration development",
+    "watch:app": "ng build front-end --watch --configuration development",
     "test": "ng test",
     "serve:ssr:front-end": "node dist/front-end/server/server.mjs"
   },
