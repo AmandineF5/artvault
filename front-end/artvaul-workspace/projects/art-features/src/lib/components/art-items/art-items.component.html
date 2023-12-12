@@ -1,0 +1,11 @@
+@for (art of arts$|async; track art.id) {
+<div>
+  {{ art.title }}
+</div>
+<div>
+  {{ art.type }}
+</div>
+<div>
+  {{ art.creationDate }}
+</div>
+}

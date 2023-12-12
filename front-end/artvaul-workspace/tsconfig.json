@@ -5,6 +5,9 @@
     "paths": {
       "art-features": [
         "./dist/art-features"
+      ],
+      "tools": [
+        "./dist/tools"
       ]
     },
     "outDir": "./dist/out-tsc",
