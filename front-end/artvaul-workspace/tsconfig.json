@@ -6,6 +6,9 @@
       "art-features": [
         "./dist/art-features"
       ],
+      "search": [
+        "./dist/search"
+      ],
       "tools": [
         "./dist/tools"
       ]
